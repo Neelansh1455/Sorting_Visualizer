@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualiser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="merge_sort.js"></script> -->
+</head>
+<body>
+    <form>
+    <div class="container">
+        <div class="title">
+            <p id="title_proj">SORTING VISUALIZER</p>
+        </div>
+        <div class="all_buttons">
+            <button type = "button" class="btn1" id="rand_button" onclick = "test()">Randomize</button>
+            <button type = "button" class="btn" id="selection_sort_btn" onclick = "selection_sort()">Selection Sort</button>
+            <button type = "button" class="btn" id="merge_sort_btn" onclick="merge_sort()">Merge Sort</button>
+            <button type = "button" class="btn" id="bubble_sort_btn" onclick= "bubble_sort()">Bubble Sort</button>
+            <button type = "button" class="btn" id="quick_sort_btn" onclick="quick_sort()">Quick Sort</button>
+        </div>
+        <div id = "drawing_area">
+
+        </div>
+    </div>
+    <div class="tech_used">
+        <img src="./resources/icons8-html-5-144.png" alt="html">
+        <img src="./resources/icons8-css3-144.png" alt="css">
+        <img src="./resources/icons8-javascript.gif" alt="js" id="js_img">
+    </div>
+    <div class="footer">
+        <p class="para">A WEB PROJECT ILLUSTRATING THE WORKING AND FUNCTIONING OF VARIOUS SORTING ALGORITHMS USING HTML CSS & JAVASCRIPT</p>
+    </div>
+</form>
+<script src = "js/randomizing_array.js"></script>
+<script src = "js/bubble_sort.js"></script>
+<script src = "js/selection_sort.js"></script>
+<script src = "js/merge_sort.js"></script>
+<script src = "js/quick_sort.js"></script>
+</body>
+<!-- >>>>>>> Stashed changes:sorting visualiser/index.html -->
+</html>

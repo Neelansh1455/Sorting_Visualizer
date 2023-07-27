@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9em;
+}
+.container{
+    border: 7px dashed black;
+}
+.title{
+    max-width: 350px;
+    border: 4px solid;
+    border-image: radial-gradient(rgb(255, 0, 0), rgb(255, 242, 0)) 1;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#title_proj {
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.all_buttons {
+    margin: 3% auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn,.btn1{
+    margin: 16px;
+    padding: 12px;
+    background: transparent;
+    border: 3px solid black;
+    font-size: 15px;
+}
+
+#insertion_sort_btn {
+    background-color: rgba(202, 194, 43, 0.425);
+}
+
+#selection_sort_btn {
+    background-color: rgba(205, 105, 34, 0.666);
+}
+
+#merge_sort_btn {
+    background-color: rgba(52, 176, 217, 0.66);
+}
+
+#bubble_sort_btn {
+    background-color: rgba(58, 226, 24, 0.605);
+}
+
+.tech_used{
+    display: flex;
+    margin-top: 18px;
+    z-index: -1;
+}
+#js_img {
+    width: 144px;
+}
+
+.para {
+    position: relative;
+    margin: 1px;
+    margin-left: 60%;
+    font-size: 23px;
+    font-weight: bold;
+}
+#drawing_area{
+    display:flex;
+    height:500px;
+    width:100%;
+    border:black solid 2px;
+}
+.array_elements{
+    background-color: aquamarine ;
+    width:20px;
+    border:black solid 2px;
+}
+.tech_used{
+    display: inline-block;
+}
+.footer{
+    display:inline-block;
+/* rti>>>>>>> Stashed changes:song visualiser/style.css */
+}
